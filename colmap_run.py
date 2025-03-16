@@ -118,10 +118,6 @@ def main():
     run_command(cmd_mapper)
 
     # ----------------------------------------------------------------------------
-    # OPTIONAL: (Skipping explicit bundle_adjuster call; can be added if needed)
-    # ----------------------------------------------------------------------------
-
-    # ----------------------------------------------------------------------------
     # 4) Dense Reconstruction (Optional unless --skip_dense is provided)
     # ----------------------------------------------------------------------------
     if not args.skip_dense:
