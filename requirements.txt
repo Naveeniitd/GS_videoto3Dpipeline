@@ -1,11 +1,5 @@
-fastapi[all]<=0.99.1
-uvicorn[standard]
 python-multipart
-gunicorn
 numpy
-tritonclient[all]==2.45.0
-sentry-sdk>=1.9.6
-requests>=2.27.1
 pydantic>=1.9.0
 imageio>=2.18.0
 blend-modes>=2.1.0
@@ -32,7 +26,6 @@ joblib==1.0.1
 Pillow==8.3.2
 scikit-learn==0.24.2
 dill==0.3.4
-diskcache==5.6.3
 protobuf
 trimesh
 open3d
